@@ -1,0 +1,163 @@
+head { background-color: greenyellow;}
+
+
+
+header { background-color: rgb(17, 231, 160); 
+    /* border: white solid 4px;
+    border-radius: 12px;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px; */
+    font-weight: bold;
+    font-family: 'Baloo Tamma 2', cursive;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 0 auto;
+    height: 50px;
+
+}
+
+.logo-header { height: 50px; 
+
+   
+}
+
+
+/* .link-inicio { color: white;
+    font-size: 25px;
+    text-decoration: none;
+    text-align: left;
+    margin-right: 30px;
+    } */
+
+
+
+.link-header { color: white;
+font-size: 25px;
+text-decoration: none;
+text-align: right;
+margin:  0 30px;
+
+}
+
+body    { background-color: #86eaaa;
+    /* margin: auto 50px; */
+    font-family: 'Baloo Tamma 2', cursive;
+    margin: 0;
+    padding: 0;
+}
+h1{ font-family: Arial, Helvetica, sans-serif; }
+
+.hero { 
+    display: flex;
+    justify-content: space-around;
+}
+
+.heroContainer {display: block;
+    justify-content: center;
+
+}
+
+.hero-nulan   { height: 200px; ; 
+  margin: auto;
+  display: block
+;}
+
+.contact-foto {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: 10px;
+
+
+}
+
+    
+.hero-foto   { height: 400px; ; 
+        
+        border: white solid 4px;
+        
+        border-bottom-right-radius: 160px;
+        border-bottom-left-radius: 160px;
+        width: 400px;
+        display: inline-block;
+        object-fit: cover;
+        margin-top: 5px;
+    }
+
+    
+    
+
+
+.contactContainer { display: inline-block; float: right ;
+    
+    background-color: rgb(17, 231, 160);
+    border: white solid 4px;
+    border-radius: 12px;
+    border-top-right-radius: 160px;
+    border-top-left-radius: 160px;
+    width: 400px;
+    display: flex; 
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+
+
+
+.social { 
+    width: 40px;
+    height: 40px;
+    display: block;
+    background-size: 40px 40px;
+    margin: 5px auto;
+}
+
+.email { background-image: url("../imagenes/mail-svg.svg");}
+.facebook { background-image: url("../imagenes/facebook-svg.svg");}
+.instagram { background-image: url("../imagenes/instagram-svg.svg");}
+.whatsapp { background-image: url("../imagenes/whatsapp-svg.svg");}
+
+
+
+.text-portada { 
+    text-align: center;
+    font-size: 50px;
+    color:  white;
+    
+}
+
+.text-portada-1{ letter-spacing: 5px;}
+    
+.hero-quienSoy { 
+    background-color: rgb(17, 231, 160); 
+    background-size: contain, 400px; 
+    background-repeat: no-repeat; 
+    background-position: left, right;
+    border: white solid 4px;
+    border-radius: 12px;
+    border-top-right-radius: 160px;
+    border-bottom-left-radius: 160px;
+    width: 760px;
+    display: inline-block;
+    color:  white;
+    padding: 20px;
+    padding-bottom: 50px;
+
+
+}
+
+
+/*.hero-title{ color: white; font-size: 50px;
+    padding-left: 20px; 
+    border-right-style: solid;
+    border-color: white;
+    width: 300px;
+}
+
+/*verdeceleste de losgo: #86eaaa
+rgb(78, 247, 219)
+ rgb(17, 231, 160)
+
+*/
